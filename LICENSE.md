@@ -1,3 +1,5 @@
+Copyright © 2018-2022 Mistific@tor <0mistificator0@gmail.com>
+
 Copyright © 2016-2017 Konstantin Sorokin <kvs@sigterm.ru>
 
 Copyright © 2009 WooThemes

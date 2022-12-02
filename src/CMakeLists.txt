@@ -55,6 +55,9 @@ set_target_properties(radiotray-lite PROPERTIES COMPILE_FLAGS "-std=c++11")
 target_compile_definitions(radiotray-lite PRIVATE -DELPP_DISABLE_DEFAULT_CRASH_HANDLING)
 target_compile_definitions(radiotray-lite PRIVATE -DINSTALL_PREFIX="${CMAKE_INSTALL_PREFIX}")
 target_compile_definitions(radiotray-lite PRIVATE -DAPP_VERSION="${APP_VERSION}")
+if (AYATANA_APPINDICATOR)
+        target_compile_definitions(radiotray-lite PRIVATE AYATANA_APPINDICATOR)
+endif()
 
 install(
     TARGETS radiotray-lite

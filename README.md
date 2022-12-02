@@ -10,13 +10,13 @@
 * Supports PLS, M3U, ASX, RAM, XSPF playlists.
 
 ### Build
-For a while this project is only tested on Ubuntu (14.04 and 16.04 versions). In order to build it you need to have
+For a while this project is only tested on Ubuntu (16.04 and 22.04 versions), Debian (10 and 11). In order to build it you need to have
 installed `-dev` versions of the following packages:
 * `libgtkmm-3.0`
 * `libgstreamermm-0.10-2` or `libgstreamermm-1.0`
 * `libcurl3`
 * `libnotify4`
-* `libappindicator3`
+* `libappindicator3` or `libayatana-appindicator3`
 * `libmagic`
 
 To compile program run following (with obvious amendments) commands from build directory:
