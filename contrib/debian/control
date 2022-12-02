@@ -1,0 +1,21 @@
+Source: radiotray-lite
+Section: sound
+Priority: optional
+Maintainer: mistificat0r
+Build-Depends: debhelper (>= 9), cmake, libgtkmm-3.0-dev, libgstreamermm-1.0-dev, libcurl4-gnutls-dev, libnotify-dev, libappindicator3-dev | libayatana-appindicator3-dev, libxml2-dev, libgtk-3-dev, libglib2.0-dev, libmagic-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/MistificaT0r/radiotray-lite
+
+Package: radiotray-lite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gir1.2-gstreamer-1.0, gir1.2-notify-0.7, gir1.2-appindicator3-0.1, gir1.2-gtk-3.0, gir1.2-glib-2.0
+Description: online radio streaming player
+ radiotray-lite is a lightweight clone of the original Radio Tray 
+ online radio streaming player rewritten in C++.
+ .
+ Key features:
+ .
+ - Runs on a Linux system tray.
+ - Has minimum interface possible.
+ - Plays most media formats (it uses gstreamer).
+ - Supports PLS, M3U, ASX, RAM, XSPF playlists.
